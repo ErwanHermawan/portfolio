@@ -1,0 +1,28 @@
+[class^="fi-"],
+[class*=" fi-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
+	font-family: "custom" !important;
+	speak: never;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.fi-twitter:before {
+	content: "\e900";
+}
+.fi-linkedin:before {
+	content: "\e901";
+}
+.fi-facebook:before {
+	content: "\e902";
+}
+.fi-instagram:before {
+	content: "\e903";
+}

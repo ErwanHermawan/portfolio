@@ -1,0 +1,29 @@
+@import "core/styles/_assets.scss";
+
+.portfolios {
+	padding: 48px 0;
+}
+
+.head {
+	margin-bottom: 48px;
+}
+
+.title {
+	@include font-size(h2);
+	font-weight: fw(bold);
+	margin-bottom: 16px;
+}
+
+.description {
+	@include font-size(h5);
+	margin-bottom: 0;
+	max-width: 760px;
+}
+
+.list {
+	margin-bottom: 48px;
+}
+
+.button {
+	text-align: center;
+}

@@ -1,0 +1,11 @@
+@import "core/styles/_assets.scss";
+
+.footer {
+	padding: 24px 0;
+}
+
+.copyright {
+	@include font-size(h5);
+	margin-bottom: 0;
+	text-align: center;
+}
